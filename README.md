@@ -7,6 +7,28 @@ The architecture of SSUNet is composed of several layers of convolution, up-conv
 
 The model was built using remote sensing data, namely PlanetScope imagery. Several preprocessing treatments were applied to the dataset prior to label data generation. The label collection process applies the [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything).
 
-The training model results show good accuracy. The inference model can be shown as follows. There are still some prediction results that show false negative and false positive. 
-![compare](https://github.com/user-attachments/assets/e0229dc7-7321-487a-9698-9d5f367d6a19)
-<img src="https://user-images.githubusercontent.com/116891235/396021378-e0229dc7-7321-487a-9698-9d5f367d6a19.png" width=50% height=50%>
+The training model results show good accuracy. The inference model can be shown as follows. There are still some prediction results that show false negative and false positive. <br/>
+<img src="https://github.com/user-attachments/assets/e0229dc7-7321-487a-9698-9d5f367d6a19" alt="compare" width="50%" height="50%">
+
+The results of this research are described in detail in [this paper](https://so04.tci-thaijo.org/index.php/MTR/article/view/273926).
+
+## Contact
+[email](mailto:marzuki1999@mail.ugm.ac.id)
+
+## How to cite
+Bibtex:
+```
+@article{Marzuki2025,
+  title={Spectral-Spatial Deep Learning Model for Seaweed Cultivation Mapping Using PlanetScope Imagery in Pangkajene and Islands Regency},
+  author={Marzuki and Arjasakusuma, Sanjiwana and Khakhim, Nurul and Wicaksono, Pramaditya and Farda, Nur Mohammad and Utami, Nur Laila Eka},
+  journal={Maritime Technology and Research},
+  volume={7},
+  number={2},
+  pages={1--10},
+  year={2025},
+  doi={10.33175/mtr.2025.273926}
+}
+```
+
+## Acknowledgements
+This publication has been funded by the Department of Foreign Affairs and Trade Australia through KONEKSI. The views expressed in this publication are the authors’ alone and are not necessarily the views of the Australian Government.
