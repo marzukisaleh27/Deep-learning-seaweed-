@@ -11,6 +11,8 @@ The training model results show good accuracy. The inference model can be shown 
 
 The results of this research are described in detail in [this paper](https://so04.tci-thaijo.org/index.php/MTR/article/view/273926). If you want to try model inference, you can use [the trained model](https://drive.google.com/file/d/1hqJbixpFMVNknsIF35gQDHsI2Ec7tKnE/view?usp=drive_link) with your dataset. See the [Predict](./Script/Predict.ipynb) code file for details. But first, make sure your dataset matches the configuration desired by the model.
 
+This research is also part of the development of a deep learning model for seaweed cultivation mapping conducted by KONEKSI. View [Seaweed-Koneksi](https://github.com/KoneksiSeaweed/Seaweed-Koneksi)
+
 ## License
 Access to Planet data is restricted. View [Terms of Use](https://www.planet.com/terms-of-use/).
 
